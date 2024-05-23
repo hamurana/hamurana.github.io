@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "NCW"
 
 [params]
   displayName = "EN"
@@ -14,9 +14,9 @@ title = "Blowfish"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "Your name here"
+  name = "Neo Wang"
   image = "img/blowfish_logo.png"
-  headline = "I'm only human"
+  headline = "Happiness and Joy"
   bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
