@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Tags &middot; NCW</title>
-  <meta name="title" content="Tags &middot; NCW" />
+  <title>Tag &middot; NCW</title>
+  <meta name="title" content="Tag &middot; NCW" />
   
   
   
@@ -67,13 +67,15 @@
   
   <meta property="og:url" content="http://localhost:1313/tags/">
   <meta property="og:site_name" content="NCW">
-  <meta property="og:title" content="Tags">
+  <meta property="og:title" content="Tag">
+  <meta property="og:description" content="Articles by their tags.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Tags">
+  <meta name="twitter:title" content="Tag">
+  <meta name="twitter:description" content="Articles by their tags.">
 
   
   
@@ -114,6 +116,29 @@
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCIxjVd-hyvhy_Y-9ct8hA53DLZRZsi-OE",
+      authDomain: "AIzaSyCIxjVd-hyvhy_Y-9ct8hA53DLZRZsi-OE",
+      projectId: "ncw-website-83374",
+      storageBucket: "ncw-website-83374.appspot.com",
+      messagingSenderId: "418871657553",
+      appId: "1:418871657553:web:4bfc1cb1e8b970ad9d6470",
+      measurementId: "G-RRCQGBH0HT"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>
@@ -367,7 +392,7 @@
 
   <header>
     
-    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Tags</h1>
+    <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Tag</h1>
     <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
@@ -399,6 +424,17 @@
 
     </div>
   </header>
+  
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      <div class="min-w-0 min-h-0 max-w-prose">
+        <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  Articles by their tags.
+</div>
+
+<hr>
+
+      </div>
+    </section>
   
   <script>
     var oid = "views_taxonomy_tags"
@@ -467,7 +503,13 @@
 
 
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

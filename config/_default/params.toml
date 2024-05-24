@@ -118,13 +118,13 @@ disableTextInHeader = false
   cardViewScreenWidth = false
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyCIxjVd-hyvhy_Y-9ct8hA53DLZRZsi-OE"
+  authDomain = "ncw-website-83374.firebaseapp.com"
+  projectId = "ncw-website-83374"
+  storageBucket = "ncw-website-83374.appspot.com"
+  messagingSenderId = "418871657553"
+  appId = "1:418871657553:web:4bfc1cb1e8b970ad9d6470"
+  measurementId = "G-RRCQGBH0HT"
 
 [fathomAnalytics]
   # site = "ABC12345"

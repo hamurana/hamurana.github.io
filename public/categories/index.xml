@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on NCW</title>
+    <title>Category on NCW</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on NCW</description>
+    <description>Recent content in Category on NCW</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Neo Wang</copyright>
